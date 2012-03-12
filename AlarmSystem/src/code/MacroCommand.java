@@ -9,14 +9,10 @@ public class MacroCommand implements Command {
 		this.commands.add(cmd); // optional 
 	}
 
-	public void go(){
-	}
-
 	@Override
 	public void execute() {
 		for(int i=0;i<commands.size();i++){
 			commands.get(i).execute();
 		}
 	}
-
 }

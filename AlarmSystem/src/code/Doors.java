@@ -7,5 +7,4 @@ public class Doors {
 	public void unlock() {
 			System.out.println("DoorsUnlocked");
 	}
-
 }

@@ -12,5 +12,4 @@ public class TurnLightsOnCommand implements Command {
 	public void execute() {
 		lights.turnOnLights();
 	}
-
 }

@@ -7,5 +7,4 @@ public class Lights {
 	public void turnOffLights() {
 			System.out.println("Lights Turned off");
 	}
-
 }
